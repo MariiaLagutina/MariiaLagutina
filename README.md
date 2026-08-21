@@ -1,16 +1,48 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**MariiaLagutina/MariiaLagutina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Mariia 👋
 
-Here are some ideas to get you started:
+### AI Engineer · 42 Heilbronn student
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build reliable, understandable AI systems — from LLM workflows to the
+software and algorithms underneath them.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mariia--lagutina-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariia-lagutina/)
+
+</div>
+
+## What I'm working toward
+
+- Building LLM applications and retrieval-augmented generation systems
+- Exploring tool calling, constrained decoding, and structured model outputs
+- Turning AI experiments into maintainable, testable Python software
+- Strengthening my foundations in algorithms, systems programming, and C
+
+## Selected projects
+
+### [Call Me Maybe](https://github.com/MariiaLagutina/42_Call_me_maybe)
+
+A schema-guided function-calling pipeline for a small language model. It maps
+natural-language prompts to validated function calls using logits, constrained
+candidate scoring, token masks, and Pydantic.
+
+### [Fly-in](https://github.com/MariiaLagutina/42_Fly-in)
+
+A turn-based routing simulator built around cooperative pathfinding, capacity
+management, conflict-free scheduling, and an event-driven architecture. Includes
+interactive Pygame visualizations and a dynamic transport simulation.
+
+### [A-Maze-Ing](https://github.com/MariiaLagutina/42_A-maze-ing)
+
+A reusable maze-generation system with DFS and Wilson's algorithm, BFS
+pathfinding, interactive terminal visualization, and clean separation between
+generation and rendering.
+
+## Tools I use
+
+`Python` · `C` · `Pydantic` · `pytest` · `Git` · `Linux`
+
+## Currently exploring
+
+RAG architecture, evaluation, and the engineering practices that make AI
+applications dependable beyond the prototype stage.
