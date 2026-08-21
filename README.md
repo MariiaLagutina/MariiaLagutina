@@ -42,7 +42,10 @@ preventing data races, deadlocks, starvation, and busy-waiting.
 
 `Python` · `C` · `Pydantic` · `pytest` · `Git` · `Linux`
 
+Currently building deeper practical skills with `NumPy` and `pandas`.
+
 ## Currently exploring
 
 RAG architecture, evaluation, and the engineering practices that make AI
-applications dependable beyond the prototype stage.
+applications dependable beyond the prototype stage — alongside the data
+foundations that support them.
