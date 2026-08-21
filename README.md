@@ -32,17 +32,20 @@ A turn-based routing simulator built around cooperative pathfinding, capacity
 management, conflict-free scheduling, and an event-driven architecture. Includes
 interactive Pygame visualizations and a dynamic transport simulation.
 
-### [A-Maze-Ing](https://github.com/MariiaLagutina/42_A-maze-ing)
+### [Codexion](https://github.com/MariiaLagutina/42_Codexion)
 
-A reusable maze-generation system with DFS and Wilson's algorithm, BFS
-pathfinding, interactive terminal visualization, and clean separation between
-generation and rendering.
+A multithreaded C simulation built with POSIX threads, mutexes, and condition
+variables. It combines FIFO and Earliest Deadline First scheduling while
+preventing data races, deadlocks, starvation, and busy-waiting.
 
 ## Tools I use
 
 `Python` · `C` · `Pydantic` · `pytest` · `Git` · `Linux`
 
+Currently building deeper practical skills with `NumPy` and `pandas`.
+
 ## Currently exploring
 
 RAG architecture, evaluation, and the engineering practices that make AI
-applications dependable beyond the prototype stage.
+applications dependable beyond the prototype stage — alongside the data
+foundations that support them.
