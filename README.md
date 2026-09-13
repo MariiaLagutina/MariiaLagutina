@@ -4,7 +4,7 @@
 
 ### AI Engineer · 42 Heilbronn student
 
-I build reliable, understandable AI systems — from LLM workflows to the
+I build reliable, understandable AI systems — from local RAG pipelines to the
 software and algorithms underneath them.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mariia--lagutina-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariia-lagutina/)
@@ -13,12 +13,19 @@ software and algorithms underneath them.
 
 ## What I'm working toward
 
-- Building LLM applications and retrieval-augmented generation systems
+- Building local RAG pipelines with grounded answers and reproducible evaluation
 - Exploring tool calling, constrained decoding, and structured model outputs
 - Turning AI experiments into maintainable, testable Python software
-- Strengthening my foundations in algorithms, systems programming, and C
+- Strengthening my foundations in data tooling, algorithms, systems programming, and C
 
 ## Selected projects
+
+### [RAG against the machine](https://github.com/MariiaLagutina/RAG)
+
+A local Retrieval-Augmented Generation system for answering questions about the
+vLLM codebase. It combines safe corpus discovery, source-exact chunking, BM25
+retrieval, token-bounded grounded context, local Qwen generation, answer
+validation, caching, and retrieval evaluation with Recall@K and MRR.
 
 ### [Call Me Maybe](https://github.com/MariiaLagutina/42_Call_me_maybe)
 
@@ -40,12 +47,11 @@ preventing data races, deadlocks, starvation, and busy-waiting.
 
 ## Tools I use
 
-`Python` · `C` · `Pydantic` · `pytest` · `Git` · `Linux`
+`Python` · `C` · `Pydantic` · `pytest` · `uv` · `Git` · `Linux`
 
 Currently building deeper practical skills with `NumPy` and `pandas`.
 
 ## Currently exploring
 
-RAG architecture, evaluation, and the engineering practices that make AI
-applications dependable beyond the prototype stage — alongside the data
-foundations that support them.
+RAG architecture, retrieval evaluation, grounding validation, and the data
+foundations that make AI applications dependable beyond the prototype stage.
