@@ -20,7 +20,7 @@ software and algorithms underneath them.
 
 ## Selected projects
 
-### [RAG against the machine](https://github.com/MariiaLagutina/RAG)
+### [RAG](https://github.com/MariiaLagutina/RAG)
 
 A local Retrieval-Augmented Generation system for answering questions about the
 vLLM codebase. It combines safe corpus discovery, source-exact chunking, BM25
