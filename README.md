@@ -18,14 +18,18 @@ software and algorithms underneath them.
 - Turning AI experiments into maintainable, testable Python software
 - Strengthening my foundations in data tooling, algorithms, systems programming, and C
 
+Right now, my strongest focus is a local RAG system: deterministic ingestion,
+retrieval evaluation, grounded generation, and the engineering details that
+make AI output traceable instead of mysterious.
+
 ## Selected projects
 
 ### [RAG](https://github.com/MariiaLagutina/RAG)
 
 A local Retrieval-Augmented Generation system for answering questions about the
 vLLM codebase. It combines safe corpus discovery, source-exact chunking, BM25
-retrieval, token-bounded grounded context, local Qwen generation, answer
-validation, caching, and retrieval evaluation with Recall@K and MRR.
+retrieval, token-bounded grounded context, local Qwen generation, structural
+answer validation, caching, and retrieval evaluation with Recall@K and MRR.
 
 ### [Call Me Maybe](https://github.com/MariiaLagutina/42_Call_me_maybe)
 
@@ -47,7 +51,7 @@ preventing data races, deadlocks, starvation, and busy-waiting.
 
 ## Tools I use
 
-`Python` · `C` · `Pydantic` · `pytest` · `uv` · `Git` · `Linux`
+`Python` · `C` · `Pydantic` · `pytest` · `uv` · `BM25` · `Qwen` · `Git` · `Linux`
 
 Currently building deeper practical skills with `NumPy` and `pandas`.
 
