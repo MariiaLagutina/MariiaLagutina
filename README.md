@@ -1,61 +1,64 @@
-<div align="center">
-
 # Hi, I'm Mariia 👋
 
-### AI Engineer · 42 Heilbronn student
+**AI Engineer · Python · Systems & Applied Mechanics Background**  
+*Student at 42 Heilbronn*
 
-I build reliable, understandable AI systems — from local RAG pipelines to the
-software and algorithms underneath them.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mariia_Lagutina-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariia-lagutina/)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mariia--lagutina-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariia-lagutina/)
+I build reliable, observable AI systems and software — with measurable behavior, validated outputs, explicit failure handling, and automated tests.
 
-</div>
+My foundation in applied mechanics and mathematical modeling shapes how I write software: define the model, make constraints explicit, and verify invariants instead of trusting happy-path demos.
 
-## What I'm working toward
+---
 
-- Building local RAG pipelines with grounded answers and reproducible evaluation
-- Exploring tool calling, constrained decoding, and structured model outputs
-- Turning AI experiments into maintainable, testable Python software
-- Strengthening my foundations in data tooling, algorithms, systems programming, and C
+### 🛠 Tech Stack
 
-Right now, my strongest focus is a local RAG system: deterministic ingestion,
-retrieval evaluation, grounded generation, and the engineering details that
-make AI output traceable instead of mysterious.
+**Languages & Systems:** Python, C, JavaScript, Linux, POSIX threads, concurrency<br>
+**AI & Retrieval:** RAG, custom BM25, hybrid retrieval, RRF, embeddings, Hugging Face Transformers, Sentence Transformers, MiniLM, Qwen, constrained decoding, structured outputs<br>
+**Backend & Applications:** FastAPI, Pydantic, Python Fire, Pygame, REST APIs, event-driven architecture<br>
+**Quality & Tooling:** pytest, mypy, Flake8, uv, Make, Git, GitHub Actions, CI<br>
+**Currently expanding:** PostgreSQL, NumPy, pandas, Docker (CLI fundamentals; project integration next)<br>
+**Next:** LangChain, LangGraph, Qdrant, and production AI workflow orchestration
 
-## Selected projects
+---
 
-### [RAG](https://github.com/MariiaLagutina/RAG)
+### 🚀 Featured Projects
 
-A local Retrieval-Augmented Generation system for answering questions about the
-vLLM codebase. It combines safe corpus discovery, source-exact chunking, BM25
-retrieval, token-bounded grounded context, local Qwen generation, structural
-answer validation, caching, and retrieval evaluation with Recall@K and MRR.
+#### **[Local RAG Pipeline (vLLM Codebase)](https://github.com/MariiaLagutina/RAG)**
 
-### [Call Me Maybe](https://github.com/MariiaLagutina/42_Call_me_maybe)
+*A deterministic, evaluation-first Retrieval-Augmented Generation system.*
 
-A schema-guided function-calling pipeline for a small language model. It maps
-natural-language prompts to validated function calls using logits, constrained
-candidate scoring, token masks, and Pydantic.
+- **Deterministic ingestion:** safe corpus discovery, strict source-exact chunking, and my own deterministic two-field BM25 inverted index with bounded reranking.
+- **Grounding & Validation:** token-bounded context, local Qwen inference, caching, and structural citation-contract validation.
+- **Evaluation & Rigor:** reproducible retrieval metrics (Recall@K, MRR), comprehensive test suite, and documented architectural decision records (ADRs).
 
-### [Fly-in](https://github.com/MariiaLagutina/42_Fly-in)
+#### **[Maria's Airlanes (42 Fly-in Simulator)](https://github.com/MariiaLagutina/42_Fly-in)**
 
-A turn-based routing simulator built around cooperative pathfinding, capacity
-management, conflict-free scheduling, and an event-driven architecture. Includes
-interactive Pygame visualizations and a dynamic transport simulation.
+*A turn-based routing, dispatch, and transport simulation with cooperative space-time planning.*
 
-### [Codexion](https://github.com/MariiaLagutina/42_Codexion)
+- **Scheduling:** capacity-aware reservations for hubs and transport lanes with dynamic rerouting and deadlock avoidance.
+- **Design:** strict dependency boundaries, immutable simulation results, typed event bus, and CI test pipelines.
+- **Visualization:** interactive Pygame dispatch views across European transport networks.
 
-A multithreaded C simulation built with POSIX threads, mutexes, and condition
-variables. It combines FIFO and Earliest Deadline First scheduling while
-preventing data races, deadlocks, starvation, and busy-waiting.
+#### **[Call Me Maybe](https://github.com/MariiaLagutina/42_Call_me_maybe)**
 
-## Tools I use
+*Schema-guided function-calling and constrained generation pipeline for small local LLMs.*
 
-`Python` · `C` · `Pydantic` · `pytest` · `uv` · `BM25` · `Qwen` · `Git` · `Linux`
+- Natural-language intent mapping to validated function calls via logit bias and token masks.
+- Strict output verification with Pydantic and explicit failure modes.
 
-Currently building deeper practical skills with `NumPy` and `pandas`.
+#### **[Codexion](https://github.com/MariiaLagutina/42_Codexion)**
 
-## Currently exploring
+*Concurrent systems simulation in C managing multi-agent tasks and shared resources.*
 
-RAG architecture, retrieval evaluation, grounding validation, and the data
-foundations that make AI applications dependable beyond the prototype stage.
+- Implements FIFO and Earliest Deadline First (EDF) scheduling using POSIX threads, mutexes, and condition variables.
+- Built with zero tolerance for race conditions, deadlocks, thread starvation, or busy-waiting.
+
+---
+
+### 📐 Engineering Principles
+
+- **Define behavior first:** treat invalid user input and impossible internal states as distinct concerns.
+- **Invariants over anecdotes:** rely on rigorous evaluation metrics and automated tests rather than cherry-picked examples.
+- **Explicit architecture:** maintain visible dependency boundaries and clean abstractions; prune obsolete code as domain models evolve.
+- **Failure-path focus:** test edge cases, resource exhaustion, and recovery paths with the same rigor as the happy path.
