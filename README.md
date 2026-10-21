@@ -3,7 +3,7 @@
 **AI Engineer · Python · Systems & Applied Mechanics Background**  
 *Student at 42 Heilbronn*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mariia_Lagutina-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariia-lagutina/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mariia_Lagutina-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariia-lagutina/) [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/MariiaLagutina/badge.svg)](https://hub.xerj.org/contributors/MariiaLagutina)
 
 I build reliable, observable AI systems and software — with measurable behavior, validated outputs, explicit failure handling, and automated tests.
 
@@ -32,7 +32,7 @@ My foundation in applied mechanics and mathematical modeling shapes how I write 
 - **Grounding & Validation:** token-bounded context, local Qwen inference, caching, and structural citation-contract validation.
 - **Evaluation & Rigor:** reproducible retrieval metrics (Recall@K, MRR), comprehensive test suite, and documented architectural decision records (ADRs).
 
-#### **[Maria's Airlanes (42 Fly-in Simulator)](https://github.com/MariiaLagutina/42_Fly-in)**
+#### **[Mariia's Airlanes (42 Fly-in Simulator)](https://github.com/MariiaLagutina/42_Fly-in)**
 
 *A turn-based routing, dispatch, and transport simulation with cooperative space-time planning.*
 
